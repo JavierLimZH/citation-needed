@@ -1,0 +1,46 @@
+title = "citation needed config"
+
+[cohere]
+key = "yours goes here"
+
+[subject]
+prompt = "Extract the subject from the sentance:"
+divider = "---------"
+samples = [
+    [
+        "It is impossible for most people to lick their own elbow",
+        "Elbow"
+    ],
+    [
+        "A crocodile cannot stick its tongue out",
+        "Crocodile"
+    ],
+    [
+        "Some lipsticks contain fish scales",
+        "Lipstick"
+    ],
+    [
+        "A reservoir in space holds 140 trillion times the amount of water in Earth's oceans.",
+        "Space"
+    ],
+    [
+        "The world 'Muscle' comes from the Latin word 'Myos' meaning 'mouse'",
+        "Muscle"
+    ],
+    [
+        "Dr. Seuss wrote Green Eggs and Ham as part of a bet.",
+        "Dr. Seuss"
+    ],
+    [
+        "The largest volcano in the solar system is three times taller than Mount Everest.",
+        "Volcano"
+    ],
+    [
+        "Domino's Japan trained reindeer to deliver pizza.",
+        "Domino's"
+    ],
+    [
+        "Alain Prost won the 1989 F1 race",
+        "1989 F1 race"
+    ]
+]
